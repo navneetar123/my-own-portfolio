@@ -1,0 +1,57 @@
+h1 {
+    color: rgb(20, 1, 1);
+}
+
+/* * {
+    border: solid;
+} */
+.nime {
+    text-align: left;
+
+}
+p{
+    font-size:25;
+}
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    font-size: 25;
+    color: red;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.menu p{
+    opacity: 0;
+}
+.menu:hover p{
+    opacity: 1;
+}
+.menu:hover img{
+opacity: 0.2;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+a:link{
+    color: red;
+}
+v:link{
+    color: rgb(241, 238, 248);
+}
